@@ -1,1 +1,21 @@
-{}
+{
+  "name": "Scadenze Scanner",
+  "short_name": "Scadenze",
+  "description": "Scansiona i codici a barre, registra le scadenze e ricevi gli avvisi per mettere i prodotti in offerta in tempo.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#059669",
+  "lang": "it",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Scansiona", "url": "/scansiona", "description": "Scansiona un nuovo prodotto" },
+    { "name": "Notifiche", "url": "/notifiche", "description": "Vedi gli avvisi di scadenza" }
+  ]
+}
